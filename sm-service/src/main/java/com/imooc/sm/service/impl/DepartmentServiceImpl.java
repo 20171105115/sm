@@ -14,7 +14,7 @@ import java.util.List;
 public class DepartmentServiceImpl implements DepartmentService {
 
 
-    @Resource(name = "departmentDao")
+    @Autowired
     private DepartmentDao departmentDao;
 
     public void add(Department department) {

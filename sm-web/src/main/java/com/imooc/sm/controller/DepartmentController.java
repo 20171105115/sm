@@ -3,10 +3,8 @@ package com.imooc.sm.controller;
 import com.imooc.sm.entity.Department;
 import com.imooc.sm.service.DepartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
-import javax.annotation.Resource;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

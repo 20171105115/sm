@@ -1,6 +1,6 @@
 package com.imooc.sm.service;
 
-
+import com.imooc.sm.entity.Department;
 import com.imooc.sm.entity.Staff;
 
 import java.util.List;
